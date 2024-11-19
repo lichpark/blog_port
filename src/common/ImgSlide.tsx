@@ -1,5 +1,4 @@
 const ImgSlide = () => {
-  // test
   return <></>;
 };
 
