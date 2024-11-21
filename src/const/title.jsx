@@ -13,3 +13,11 @@ export const skillTitle = {
   aClassNm: "text-slate-600",
   spanClassNm: "pb-3 border-b-2 border-stone-300",
 };
+
+export const ArchivingTitle = {
+  text: "ARCHIVING",
+  classNm: "text-5xl flex py-10 px-5 font-bold",
+  link: "",
+  aClassNm: "text-slate-600",
+  spanClassNm: "pb-3 border-b-2 border-stone-300 text-white",
+};
