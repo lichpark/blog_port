@@ -21,3 +21,11 @@ export const ArchivingTitle = {
   aClassNm: "text-slate-600",
   spanClassNm: "pb-3 border-b-2 border-stone-300 text-white",
 };
+
+export const ProjectTitle = {
+  text: "PROJECT",
+  classNm: "text-5xl flex py-10 px-5 font-bold",
+  link: "",
+  aClassNm: "text-slate-600",
+  spanClassNm: "pb-3 border-b-2 border-stone-300 text-white",
+};

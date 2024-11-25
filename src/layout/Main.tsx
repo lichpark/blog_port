@@ -1,6 +1,7 @@
 import About from "./main/About";
 import Archiving from "./main/Archiving";
 import Intro from "./main/Intro";
+import Project from "./main/Project";
 import Skills from "./main/Skills";
 
 const Main = () => {
@@ -10,6 +11,7 @@ const Main = () => {
       <About />
       <Skills />
       <Archiving />
+      <Project />
     </>
   );
 };

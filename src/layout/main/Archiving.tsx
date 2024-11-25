@@ -26,7 +26,7 @@ const Archiving = () => {
         spanClassNm={ArchivingTitle.spanClassNm}
       />
       {ArchivingBoxArr.map((v) => (
-        <ArchivingBox />
+        <ArchivingBox {...v} />
       ))}
     </section>
   );

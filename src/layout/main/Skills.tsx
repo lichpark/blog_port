@@ -46,7 +46,7 @@ const Skills = () => {
         },
       ],
       containerClass:
-        "bg-white p-6 rounded shadow-lg shadow-gray-400 mb-6 w-2/5",
+        "bg-white p-6 rounded-2xl shadow-lg shadow-gray-400 mb-6 w-2/5",
       titleText: "FrontEnd",
       titleClassNm: "border-b-2 pb-3",
       titleSpanClassNm: "text-orange-500 font-bold text-2xl tracking-tighter",
@@ -65,7 +65,7 @@ const Skills = () => {
         },
       ],
       containerClass:
-        "bg-white p-6 rounded shadow-lg shadow-gray-400 mb-6 w-2/5",
+        "bg-white p-6 rounded-2xl shadow-lg shadow-gray-400 mb-6 w-2/5",
       titleText: "Backend",
       titleClassNm: "border-b-2 pb-3",
       titleSpanClassNm: "text-orange-500 font-bold text-2xl tracking-tighter",
@@ -84,7 +84,7 @@ const Skills = () => {
         },
       ],
       containerClass:
-        "bg-white p-6 rounded shadow-lg shadow-gray-400 mb-6 w-2/5",
+        "bg-white p-6 rounded-2xl shadow-lg shadow-gray-400 mb-6 w-2/5",
       titleText: "Extra",
       titleClassNm: "border-b-2 pb-3",
       titleSpanClassNm: "text-orange-500 font-bold text-2xl tracking-tighter",
