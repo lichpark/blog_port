@@ -14,6 +14,7 @@ type ProjectWhiteBoxType = {
     subClassNm?: string;
     subText?: string;
   };
+  slideImg?: string[];
 };
 
 const ProjectWhiteBox = (props: ProjectWhiteBoxType) => {
@@ -27,6 +28,7 @@ const ProjectWhiteBox = (props: ProjectWhiteBoxType) => {
       subClassNm: "",
       subText: "",
     },
+    slideImg = [],
   } = props;
 
   return (
@@ -41,7 +43,7 @@ const ProjectWhiteBox = (props: ProjectWhiteBoxType) => {
       </div>
       <div>
         <article>
-          <ImgSlide />
+          <ImgSlide slideImg={slideImg} />
         </article>
         <div>
           <LongParagraph />

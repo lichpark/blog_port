@@ -15,6 +15,11 @@ const Project = () => {
         subClassNm: "text-sm text-zinc-300 text-center",
         subText: "2022.11 - 2022.11 (1人)",
       },
+      slideImg: [
+        `${process.env.PUBLIC_URL}/Imgs/slideImg/slide1_1.png`,
+        `${process.env.PUBLIC_URL}/Imgs/slideImg/slide1_1.png`,
+        `${process.env.PUBLIC_URL}/Imgs/slideImg/slide1_1.png`,
+      ],
     },
   ];
   return (

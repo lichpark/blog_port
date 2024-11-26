@@ -1,4 +1,8 @@
-const ImgSlide = () => {
+type slideImgprop = {
+  slideImg?: string[];
+};
+const ImgSlide = (props: slideImgprop) => {
+  const { slideImg = [] } = props;
   return <></>;
 };
 
